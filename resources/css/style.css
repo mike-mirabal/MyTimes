@@ -1,0 +1,59 @@
+/* Header Section */
+
+/* Flex Continer - Header */
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid black;
+}
+
+/* Flex Item 1 - Logo Image & Text */
+
+.logo {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 75%;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+/* Flex Item 2 - Navigation Menu */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav span {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.nav span a {
+  color: black;
+}
+
+/* Main Content Section */
